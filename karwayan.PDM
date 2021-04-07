@@ -1,0 +1,167 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\karyawan\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Exchange=No
+Text=No
+Jet 2.x=No
+Lotus=No
+Paradox=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=No
+ODBCDirect=No
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+VB5DB.dll=
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Windows\SysWOW64\MSSTDFMT.DLL=
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=
+C:\Windows\System32\MSEXCH35.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\MSDATGRD.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\program files (x86)\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+c:\program files (x86)\common files\system\ado\msado20.tlb=
+c:\windows\syswow64\msadodc.ocx=
+c:\windows\syswow64\msdatgrd.ocx=
+c:\windows\syswow64\msdatlst.ocx=
+c:\windows\syswow64\msflxgrd.ocx=
+c:\windows\system32\msjet35.dll=
+c:\windows\system32\msjint35.dll=
+c:\windows\system32\msjter35.dll=
+c:\windows\system32\msrd2x35.dll=
+c:\windows\syswow64\msrdo20.dll=
+c:\windows\system32\msrepl35.dll=
+c:\windows\syswow64\msstdfmt.dll=
+c:\program files (x86)\microsoft visual studio\vb98\wizards\pdwizard\redist\msvcrt40.dll=
+c:\windows\syswow64\rdocurs.dll=
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+c:\program files (x86)\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+c:\windows\system32\vbajet32.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+D:\karyawan\karwayan.exe=Yes
+C:\Windows\System32\msvbvm60.dll=No
+C:\Windows\System32\oleaut32.dll=No
+C:\Windows\System32\olepro32.dll=No
+C:\Windows\System32\asycfilt.dll=No
+C:\Windows\System32\stdole2.tlb=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=No
+C:\Windows\SysWOW64\MSRDO20.DLL=No
+C:\Windows\SysWOW64\RDOCURS.DLL=No
+C:\Windows\SysWOW64\MSADODC.OCX=No
+C:\Windows\SysWOW64\MSSTDFMT.DLL=No
+C:\Windows\SysWOW64\MSDATLST.OCX=No
+C:\Windows\SysWOW64\MSDATGRD.OCX=No
+C:\Windows\SysWOW64\msflxgrd.ocx=No
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Windows\System32\MSJET35.DLL=No
+C:\Windows\System32\MSJTER35.DLL=No
+C:\Windows\System32\MSJINT35.DLL=No
+C:\Windows\System32\vbajet32.dll=No
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=No
+C:\Windows\System32\MSREPL35.DLL=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=No
+C:\Windows\SysWOW64\COMDLG32.OCX=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+D:\karyawan\karwayan.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Common Files\System\ado\msado20.tlb=$(WinSysPath)
+C:\Windows\SysWOW64\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\RDOCURS.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSDATLST.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSDATGRD.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\msflxgrd.ocx=$(WinSysPath)
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\COMDLG32.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Windows\System32\MSEXCL35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSEXCH35.DLL=$(WinSysPath)
+C:\Windows\System32\MSLTUS35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSPDOX35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSTEXT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSXBSE35.DLL=$(WinSysPathSysFile)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+D:\karyawan\karwayan.exe=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=karyawan
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=D:\karyawan\Package
+ProjectFolder=D:\karyawan
+ServerSideCab=
+File1=D:\karyawan\Package\setup.exe
+File2=D:\karyawan\Package\Setup.Lst
+File3=D:\karyawan\Package\karwayan.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=karyawan
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|karyawan]
+Icon1=karwayan.exe
+Title1=karyawan
+StartIn1=$(AppPath)
+Key1=Icon1
